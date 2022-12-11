@@ -44,7 +44,7 @@ function App() {
           alert(
             "There is error in the server connection, Api will connection again in the soon"
           );
-          navigate("/account");
+          navigate("/registerPagerByReact/account");
         }
       })
       .then((e) => {
@@ -62,10 +62,13 @@ function App() {
   return (
     <div className="  ">
       <Routes>
-        <Route path="/" element={<Welcome />} />
-        <Route path="/account" element={<Account reciveVal={reciveValFun} />} />
+        <Route path="/registerPagerByReact" element={<Welcome />} />
         <Route
-          path="/list"
+          path="/registerPagerByReact/account"
+          element={<Account reciveVal={reciveValFun} />}
+        />
+        <Route
+          path="/registerPagerByReact/list"
           element={
             <ListData
               ckeckVal={valList}

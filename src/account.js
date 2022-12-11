@@ -83,7 +83,7 @@ export const Account = ({ reciveVal }) => {
       );
     } else {
       reciveVal(userRegis);
-      navigate("/list");
+      navigate("/registerPagerByReact/list");
     }
   };
   return (
