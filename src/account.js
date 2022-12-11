@@ -68,7 +68,7 @@ export const Account = ({ reciveVal }) => {
     }
     if (!userRegis.username.match(rexF_L)) {
       return setUsernameError(
-        "First and Last character must be text no number"
+        "First and Last character must be text no number. Or change username to another "
       );
     }
     if (!userRegis.email.match(rexEmail)) {
