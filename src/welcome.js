@@ -15,7 +15,7 @@ function Welcome() {
           <h4 className="font-extralight pb-4">
             We are glad you are here sgin up to start
           </h4>
-          <NavLink to="/account">
+          <NavLink to="/registerPagerByReact/account">
             {" "}
             <button className="  bg-gradient-to-r from-blue-700 to-blue-400   p-2  w-56 text-slate-50 rounded-md">
               Get Started
